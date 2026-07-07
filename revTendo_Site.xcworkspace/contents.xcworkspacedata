@@ -4,60 +4,218 @@
    <FileRef
       location = "group:404.html">
    </FileRef>
-   <FileSystemSynchronizedGroup
-      location = "group:webfs"
-      name = "webfs">
-   </FileSystemSynchronizedGroup>
-   <Group
-      location = "group:guide"
-      name = "guide">
-      <FileRef
-         location = "group:index.html">
-      </FileRef>
-   </Group>
-   <FileRef
-      location = "group:index.html">
-   </FileRef>
    <FileRef
       location = "group:LICENSE">
    </FileRef>
    <FileRef
       location = "group:LICENSE CC">
    </FileRef>
-   <Group
-      location = "group:news"
-      name = "news">
-      <FileRef
-         location = "group:news.xml">
-      </FileRef>
-      <FileRef
-         location = "group:index.html">
-      </FileRef>
-      <FileRef
-         location = "group:xml.js">
-      </FileRef>
-      <FileRef
-         location = "group:fetch.js">
-      </FileRef>
-   </Group>
-   <Group
-      location = "group:policy"
-      name = "policy">
-      <FileRef
-         location = "group:index.html">
-      </FileRef>
-   </Group>
-   <Group
-      location = "group:progress"
-      name = "progress">
-      <FileRef
-         location = "group:index.html">
-      </FileRef>
-   </Group>
    <FileRef
       location = "group:README.md">
    </FileRef>
-   <FileRef
-      location = "group:sfx_test.html">
-   </FileRef>
+   <Group
+      location = "group:webfs"
+      name = "webfs">
+      <Group
+         location = "group:css"
+         name = "css">
+         <FileRef
+            location = "group:wiiu.css">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:sfx"
+         name = "sfx">
+         <Group
+            location = "group:wiiu"
+            name = "wiiu">
+            <FileRef
+               location = "group:WAV_248_GUESS_BANK_MEN.wav">
+            </FileRef>
+            <FileRef
+               location = "group:WAV_245_GUESS_WARC_1_GUESS_GROUP_MEN.wav">
+            </FileRef>
+            <FileRef
+               location = "group:WAV_240_GUESS_BANK_MEN.wav">
+            </FileRef>
+            <FileRef
+               location = "group:WAV_244_GUESS_WARC_1_GUESS_GROUP_MEN.wav">
+            </FileRef>
+            <FileRef
+               location = "group:WAV_247_GUESS_WARC_1_GUESS_GROUP_MEN.wav">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:image"
+         name = "image">
+         <Group
+            location = "group:pfp"
+            name = "pfp">
+            <FileRef
+               location = "group:pfp3.webp">
+            </FileRef>
+            <FileRef
+               location = "group:pfp2.webp">
+            </FileRef>
+            <FileRef
+               location = "group:pfp5.webp">
+            </FileRef>
+            <FileRef
+               location = "group:pfp4.webp">
+            </FileRef>
+            <FileRef
+               location = "group:pfp7.webp">
+            </FileRef>
+            <FileRef
+               location = "group:pfp6.webp">
+            </FileRef>
+            <FileRef
+               location = "group:pfp1.webp">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:screenshots"
+            name = "screenshots">
+            <FileRef
+               location = "group:screenshot2.webp">
+            </FileRef>
+            <FileRef
+               location = "group:screenshot3.webp">
+            </FileRef>
+            <FileRef
+               location = "group:screenshot4.webp">
+            </FileRef>
+            <FileRef
+               location = "group:screenshot1.png">
+            </FileRef>
+            <FileRef
+               location = "group:screenshot1.webp">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:sm3dwthumbnail.jpg">
+         </FileRef>
+         <FileRef
+            location = "group:sadmario.jpg">
+         </FileRef>
+         <Group
+            location = "group:gfx"
+            name = "gfx">
+            <Group
+               location = "group:wiiu"
+               name = "wiiu">
+               <FileRef
+                  location = "group:yticon.png">
+               </FileRef>
+               <FileRef
+                  location = "group:icon_lamp.png">
+               </FileRef>
+               <FileRef
+                  location = "group:icon_lamp_on.png">
+               </FileRef>
+               <FileRef
+                  location = "group:lamp_off.png">
+               </FileRef>
+               <FileRef
+                  location = "group:lamp_on.png">
+               </FileRef>
+               <FileRef
+                  location = "group:discord.webp">
+               </FileRef>
+               <FileRef
+                  location = "group:Group_46.png">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:thumb.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:functions"
+         name = "functions">
+         <Group
+            location = "group:sfx"
+            name = "sfx">
+            <FileRef
+               location = "group:3ds.js">
+            </FileRef>
+            <FileRef
+               location = "group:wiiu.js">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:api"
+            name = "api">
+            <FileRef
+               location = "group:news.js">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:font"
+         name = "font">
+         <FileRef
+            location = "group:FOT-RodinNTLG Pro DB.otf">
+         </FileRef>
+         <FileRef
+            location = "group:MarvelouzTube Font 3.ttf">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:tabicon.png">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:3ds"
+      name = "3ds">
+   </Group>
+   <Group
+      location = "group:wiiu"
+      name = "wiiu">
+      <Group
+         location = "group:guide"
+         name = "guide">
+         <FileRef
+            location = "group:index.html">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:sfx_test.html">
+      </FileRef>
+      <FileRef
+         location = "group:index.html">
+      </FileRef>
+      <Group
+         location = "group:progress"
+         name = "progress">
+         <FileRef
+            location = "group:index.html">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:news"
+         name = "news">
+         <FileRef
+            location = "group:news.xml">
+         </FileRef>
+         <FileRef
+            location = "group:index.html">
+         </FileRef>
+         <FileRef
+            location = "group:xml.js">
+         </FileRef>
+         <FileRef
+            location = "group:fetch.js">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:policy"
+         name = "policy">
+         <FileRef
+            location = "group:index.html">
+         </FileRef>
+      </Group>
+   </Group>
 </Workspace>
