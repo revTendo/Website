@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: 'RodinNTLG';
-    src: url('font/FOT-RodinNTLG Pro DB.otf');
+    src: url('../font/FOT-RodinNTLG Pro DB.otf');
 }
 
 @font-face {
     font-family: 'MarvelouzTubeFont3';
-    src: url('font/MarvelouzTube Font 3.ttf');
+    src: url('../font/MarvelouzTube Font 3.ttf');
 }
 
 /* =========================================
