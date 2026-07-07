@@ -1,5 +1,5 @@
 # Website
-And this is the official revTendo website.
+This is the official revTendo website.
 
 ## Credits
 Images: Somarix 
