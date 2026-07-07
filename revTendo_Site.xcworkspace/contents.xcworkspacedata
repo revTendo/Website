@@ -2,47 +2,6 @@
 <Workspace
    version = "1.0">
    <Group
-      location = "group:3ds"
-      name = "3ds">
-   </Group>
-   <FileRef
-      location = "group:404.html">
-   </FileRef>
-   <Group
-      location = "group:global"
-      name = "global">
-      <FileRef
-         location = "group:3ds-selection.png">
-      </FileRef>
-      <FileRef
-         location = "group:wiiu-selection.png">
-      </FileRef>
-      <FileRef
-         location = "group:logo.png">
-      </FileRef>
-      <FileRef
-         location = "group:style.css">
-      </FileRef>
-      <FileRef
-         location = "group:bg.png">
-      </FileRef>
-   </Group>
-   <FileRef
-      location = "group:index.html">
-   </FileRef>
-   <FileRef
-      location = "group:LICENSE">
-   </FileRef>
-   <FileRef
-      location = "group:LICENSE CC">
-   </FileRef>
-   <FileRef
-      location = "group:README.md">
-   </FileRef>
-   <FileRef
-      location = "group:revTendo_Site.xcworkspace">
-   </FileRef>
-   <Group
       location = "group:webfs"
       name = "webfs">
       <Group
@@ -50,6 +9,15 @@
          name = "css">
          <FileRef
             location = "group:wiiu.css">
+         </FileRef>
+         <FileRef
+            location = "group:wiiu old.css">
+         </FileRef>
+         <FileRef
+            location = "group:style.css">
+         </FileRef>
+         <FileRef
+            location = "group:3ds.css">
          </FileRef>
       </Group>
       <Group
@@ -473,6 +441,10 @@
       <Group
          location = "group:image"
          name = "image">
+         <FileSystemSynchronizedGroup
+            location = "group:3ds"
+            name = "3ds">
+         </FileSystemSynchronizedGroup>
          <Group
             location = "group:pfp"
             name = "pfp">
@@ -523,23 +495,15 @@
          <FileRef
             location = "group:sadmario.jpg">
          </FileRef>
+         <FileSystemSynchronizedGroup
+            location = "group:wiiu"
+            name = "wiiu">
+         </FileSystemSynchronizedGroup>
          <Group
             location = "group:gfx"
             name = "gfx">
             <FileRef
                location = "group:yticon.png">
-            </FileRef>
-            <FileRef
-               location = "group:icon_lamp.png">
-            </FileRef>
-            <FileRef
-               location = "group:icon_lamp_on.png">
-            </FileRef>
-            <FileRef
-               location = "group:lamp_off.png">
-            </FileRef>
-            <FileRef
-               location = "group:lamp_on.png">
             </FileRef>
             <FileRef
                location = "group:discord.webp">
@@ -550,6 +514,18 @@
          </Group>
          <FileRef
             location = "group:thumb.png">
+         </FileRef>
+         <FileRef
+            location = "group:3ds-selection.png">
+         </FileRef>
+         <FileRef
+            location = "group:bg.png">
+         </FileRef>
+         <FileRef
+            location = "group:wiiu-selection.png">
+         </FileRef>
+         <FileRef
+            location = "group:logo.png">
          </FileRef>
       </Group>
       <Group
@@ -573,7 +549,13 @@
             location = "group:FOT-RodinNTLG Pro DB.otf">
          </FileRef>
          <FileRef
+            location = "group:Digital Sans EF Medium.ttf">
+         </FileRef>
+         <FileRef
             location = "group:MarvelouzTube Font 3.ttf">
+         </FileRef>
+         <FileRef
+            location = "group:bank gothic medium bt.ttf">
          </FileRef>
       </Group>
       <FileRef
@@ -583,48 +565,41 @@
    <Group
       location = "group:wiiu"
       name = "wiiu">
-      <Group
-         location = "group:guide"
-         name = "guide">
-         <FileRef
-            location = "group:index.html">
-         </FileRef>
-      </Group>
-      <FileRef
-         location = "group:sfx_test.html">
-      </FileRef>
+      <FileSystemSynchronizedGroup
+         location = "group:progress"
+         name = "progress">
+      </FileSystemSynchronizedGroup>
       <FileRef
          location = "group:index.html">
       </FileRef>
-      <Group
+   </Group>
+   <Group
+      location = "group:3ds"
+      name = "3ds">
+      <FileSystemSynchronizedGroup
          location = "group:progress"
          name = "progress">
-         <FileRef
-            location = "group:index.html">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:news"
-         name = "news">
-         <FileRef
-            location = "group:news.xml">
-         </FileRef>
-         <FileRef
-            location = "group:index.html">
-         </FileRef>
-         <FileRef
-            location = "group:xml.js">
-         </FileRef>
-         <FileRef
-            location = "group:fetch.js">
-         </FileRef>
-      </Group>
-      <Group
-         location = "group:policy"
-         name = "policy">
-         <FileRef
-            location = "group:index.html">
-         </FileRef>
-      </Group>
+      </FileSystemSynchronizedGroup>
+      <FileRef
+         location = "group:index.html">
+      </FileRef>
    </Group>
+   <FileRef
+      location = "group:404.html">
+   </FileRef>
+   <FileRef
+      location = "group:index.html">
+   </FileRef>
+   <FileRef
+      location = "group:sfx_test.html">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE CC">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
 </Workspace>
