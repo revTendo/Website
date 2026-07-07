@@ -3,7 +3,7 @@ let currentPage = 1;
 const itemsPerPage = 5;
 
 window.onload = async function () {
-    const res = await fetch('https://reeshop.pages.dev/api/news');
+    const res = await fetch('https://revtendo.github.io/Website/api/news');
     const data = await res.json();
     newsItems = data.news.news_entry;
 

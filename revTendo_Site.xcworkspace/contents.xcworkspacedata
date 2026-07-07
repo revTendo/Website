@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:404.html">
+   </FileRef>
+   <Group
+      location = "group:font"
+      name = "font">
+      <FileRef
+         location = "group:FOT-RodinNTLG Pro DB.otf">
+      </FileRef>
+      <FileRef
+         location = "group:MarvelouzTube Font 3.ttf">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:functions"
+      name = "functions">
+      <Group
+         location = "group:api"
+         name = "api">
+         <FileRef
+            location = "group:news.js">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:guide"
+      name = "guide">
+      <FileRef
+         location = "group:index.html">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:index.html">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE CC">
+   </FileRef>
+   <Group
+      location = "group:meta"
+      name = "meta">
+      <FileRef
+         location = "group:main.css">
+      </FileRef>
+      <Group
+         location = "group:image"
+         name = "image">
+         <FileRef
+            location = "group:pfp3.webp">
+         </FileRef>
+         <FileRef
+            location = "group:screenshot2.webp">
+         </FileRef>
+         <FileRef
+            location = "group:yticon.png">
+         </FileRef>
+         <FileRef
+            location = "group:pfp2.webp">
+         </FileRef>
+         <FileRef
+            location = "group:screenshot3.webp">
+         </FileRef>
+         <FileRef
+            location = "group:icon_lamp.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_lamp_on.png">
+         </FileRef>
+         <FileRef
+            location = "group:pfp5.webp">
+         </FileRef>
+         <FileRef
+            location = "group:screenshot4.webp">
+         </FileRef>
+         <FileRef
+            location = "group:all images go here">
+         </FileRef>
+         <FileRef
+            location = "group:sm3dwthumbnail.jpg">
+         </FileRef>
+         <FileRef
+            location = "group:pfp4.webp">
+         </FileRef>
+         <FileRef
+            location = "group:sadmario.jpg">
+         </FileRef>
+         <FileRef
+            location = "group:pfp7.webp">
+         </FileRef>
+         <FileRef
+            location = "group:pfp6.webp">
+         </FileRef>
+         <FileRef
+            location = "group:screenshot1.png">
+         </FileRef>
+         <FileRef
+            location = "group:pfp1.webp">
+         </FileRef>
+         <FileRef
+            location = "group:tabicon.png">
+         </FileRef>
+         <FileRef
+            location = "group:discord.webp">
+         </FileRef>
+         <FileRef
+            location = "group:screenshot1.webp">
+         </FileRef>
+         <FileRef
+            location = "group:Group_46.png">
+         </FileRef>
+         <FileRef
+            location = "group:thumb.png">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:news"
+      name = "news">
+      <FileRef
+         location = "group:news.xml">
+      </FileRef>
+      <FileRef
+         location = "group:index.html">
+      </FileRef>
+      <FileRef
+         location = "group:xml.js">
+      </FileRef>
+      <FileRef
+         location = "group:fetch.js">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:policy"
+      name = "policy">
+      <FileRef
+         location = "group:index.html">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:progress"
+      name = "progress">
+      <FileRef
+         location = "group:index.html">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+</Workspace>

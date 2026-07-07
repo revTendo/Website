@@ -5,7 +5,7 @@ window.onload = function () {
             buildHTML(xhttp);
         }
     };
-    xhttp.open('GET', 'https://reeshop.pages.dev/news/news.xml', true);
+    xhttp.open('GET', 'https://revtendo.github.io/Website/news/news.xml', true);
     xhttp.send();
 };
 let newsItems = [];
