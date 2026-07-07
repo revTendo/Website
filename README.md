@@ -5,5 +5,6 @@ And this is the official revTendo website.
 Images: Somarix 
 
 Web: cannedfart 
+Web: Adrian 
 
 Fixes: nebulagamez 

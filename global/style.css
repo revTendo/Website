@@ -13,7 +13,7 @@ body {
 }
 @font-face {
     font-family: wiiu;
-    src: url('FOT-RodinNTLG Pro DB.otf') format('woff');
+    src: url('webfs/font/FOT-RodinNTLG Pro DB.otf') format('woff');
 }
     @keyframes backgroundanimation {
         from {
