@@ -1,0 +1,305 @@
+:root {
+    --bg-color: #eee;
+    --card-bg: #f5f5f5;
+    --pill-bg: linear-gradient(to top, #ededed, #f5f5f5);
+    --text-gray: #828282;
+    --accent-orange: #ffb300;
+    --shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-color);
+    background-image: radial-gradient(circle at 2px 2px, #f7f7f7 2px, transparent 0), radial-gradient(circle at 2px 2px, #f7f7f7 2px, transparent 0);
+    background-size: 12px 12px;
+    background-position: 0px 0px, 6px 6px;
+    font-family: 'RodinNTLG', sans-serif;
+    overflow-x: hidden;
+    min-height: 100vh;
+    padding-bottom: 100px;
+    cursor: default;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family:RodinNTLG;
+    src:url('../FOT-RodinNTLG Pro DB.otf');
+}
+
+@font-face {
+    font-family:MarvelouzTubeFont3;
+    src:url('../MarvelouzTube Font 3.ttf')
+}
+
+.nintendoufont {
+    font-family:MarvelouzTubeFont3;
+    text-align: center;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.top-button {
+    position: relative;
+    bottom: 70px;
+    width: 90%;
+    max-width: 1150px;
+    height: 140px;
+    font-size: 30px;
+    background: linear-gradient(to top, #fff, #e6e6e6);
+    color: var(--text-gray);
+    border: none;
+    border-radius: 50%;
+    box-shadow: var(--shadow);
+    text-shadow: 1px 1px white;
+    cursor: pointer;
+    font-family: 'MarvelouzTubeFont3';
+}
+
+#header-text {
+    position: relative;
+    top: 32.5px;
+}
+
+.progressbar {
+    position: relative;
+    height: 50px;
+    width: 50vw;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2) inset;
+    border-radius: 15px;
+    background: linear-gradient(to top, #e6e6e6, #f2f2f2);
+}
+
+.header {
+    color: var(--accent-orange);
+    text-shadow: 2px 2px white;
+    font-size: 2.5vw;
+    position: relative;
+    bottom: 50px;
+}
+
+.text {
+    color: var(--text-gray);
+    text-shadow: 2px 2px white;
+    width: 50vw;
+    font-size: 3vh;
+    text-align: center;
+    position: relative;
+    right: 25px;
+}
+
+.ntext {
+    color: var(--text-gray);
+    text-shadow: 2px 2px white;
+    width: 50vw;
+    font-size: 3vh;
+    text-align: center;
+}
+
+#progresstext {
+    position: relative;
+    left: 6px;
+}
+
+@media (max-width: 800px) {
+    .progressbar {
+        position: relative;
+        height: 50px;
+        width: 95vw;
+        box-shadow: 0px 5px 10px rgba(0,0,0,0.2) inset;
+        border-radius: 15px;
+        background: linear-gradient(to top, #e6e6e6, #f2f2f2);
+    }
+
+    .header {
+        text-decoration: underline;
+        color: var(--accent-orange);
+        text-shadow: 2px 2px white;
+        font-size: 8vw;
+    }
+
+    .text {
+        color: var(--text-gray);
+        text-shadow: 2px 2px white;
+        width: 95vw;
+        font-size: 3vh;
+        text-align: center;
+        position: relative;
+        right: 25px;
+    }
+    .ntext {
+        color: var(--text-gray);
+        text-shadow: 2px 2px white;
+        width: 95vw;
+        font-size: 3vh;
+        text-align: center;
+    }
+    .top-button {
+        position: relative;
+        bottom: 70px;
+        width: 90%;
+        max-width: 1150px;
+        height: 140px;
+        font-size: 30px;
+        background: linear-gradient(to top, #fff, #e6e6e6);
+        color: var(--text-gray);
+        border: none;
+        border-radius: 0 0 15px 15px;
+        box-shadow: var(--shadow);
+        text-shadow: 1px 1px white;
+        cursor: pointer;
+        font-family: 'MarvelouzTubeFont3';
+    }
+    #header-text {
+        position: relative;
+        top: 32.5px;
+    }
+}
+
+#value {
+    width: calc(100% / var(--maxvalue) * var(--value));
+    height: inherit;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2) inset;
+    border-radius: 15px;
+    background: linear-gradient(to top, #006ce0, #00bbff);
+}
+
+.check {
+    position: relative;
+    top: 12px;
+}
+
+#progresslist {
+    list-style-type: none;
+}
+
+.pill-button {
+    background: var(--pill-bg);
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: var(--shadow);
+    color: var(--accent-orange);
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.2s ease;
+    width: fit-content;
+    min-width: 250px;
+    text-shadow: 2px 2px white;
+}
+
+
+.pill-button:hover {
+    transform: scale(1.05);
+}
+.pill-button:active {
+    transform: scale(0.95);
+}
+
+#home-pill {
+    position: relative;
+    top: 40px;
+}
+
+footer {
+    color: white;
+    text-shadow: 2px 2px #d97700;
+    width: 100vw;
+    height: fit-content;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #ffb300, #f08300);
+    box-shadow: var(--shadow);
+    font-size: 1.5vw;
+    position: relative;
+    top: 100px;
+}
+
+    footer b {
+        position: relative;
+        top: 30px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white;
+    }
+
+a img {
+    width: 30px;
+    filter: brightness(100%);
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    top: 2px;
+}
+
+footer hr {
+    width: 50%;
+    position: relative;
+    top: 40px;
+    margin-bottom: 40px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    color: var(--text-gray);
+    text-align: center;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    position: relative;
+    top: 50px;
+}
+
+@media (max-width: 800px) {
+    footer ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    a img {
+        width: 3vw;
+    }
+    footer {
+        font-size: 5vw;
+    }
+}
+
+.l {
+    width: 90%;
+    text-align: left;
+}
+
+.text-container {
+    background-color: var(--bg-color);
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+    box-shadow: var(--shadow);
+}
+
+    .text-container hr {
+        border: solid 1px #d6d6d6;
+        width: 90%;
+    }
