@@ -11,22 +11,21 @@
     <meta property="og:title" content="Progress">
     <meta property="og:description" content="revTendo progress">
     <title>revTendo</title>
-    <link rel="stylesheet" href="../meta/main.css">
-    <link rel="icon" type="image/x-icon" href="https://revtendo.github.io/Website/meta/tabicon.png">
+    <link rel="stylesheet" href="../webfs/main.css">
+    <link rel="icon" type="image/x-icon" href="../webfs/tabicon.png">
 </head>
 <body>
     <header class="header-container" onclick="location.href='https://revtendo.github.io/Website'">
-        <button type="button" class="top-button"><b id="header-text">r\vTendo</b></button>
+        <button type="button" class="top-button home"><b id="header-text">r\vTendo</b></button>
     </header>
     <div>
         <!--i couldnt think of a better way to automate this-->
         <script>
             let percent = 5;
         </script>
-        <div class="text-container">
-            <section>
-                <h3 class="ntext">Progress</h3>
-                <hr />
+        <section class="info-card extra-info-card">
+        <div class="card-header">- Progress -</div>
+        <div class="card-body">
                 <h3 class="ntext">
                     Progress:
                     <script>document.write(Math.round(100 / 100 * percent))</script>%
@@ -35,33 +34,19 @@
                     <!--change the to a number +1 once another thing is finished in the progress repo-->
                     <div id="value"></div>
                 </div>
-            </section>
             <div>
                 <section>
                     <ul id="progresslist">
-                        <li><br /><h3 class="progress-text" style="font-family: 'MarvelouzTubeFont3';"><u>Front end</u></h3><br /></li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp_on.png" /> Get frontend loaded</h3></li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp_on.png" /> Make Rankings work</h3></li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp.png" /> Have voting system</h3></li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp.png" /> Proper Search</h3></li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp.png" /> Get games Loaded properly</h3></li>
-                         <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp_on.png" /> Connected titles and stuff to their own banner</h3><li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp.png" /> Get DLC (maybe passes?) loaded properly</h3></li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp.png" /> SpotPass???</h3></li>
-                        <li><br /><h3 class="progress-text" style="font-family: 'MarvelouzTubeFont3';"><u>SOAP / Download</u></h3><br /></li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp.png" /> Make ECS work properly</h3></li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp_on.png" /> Get Downloads to work</h3></li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp.png" /> Get IAS and CAS working</h3></li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp.png" /> Get unofficial titles working</h3></li>
-                        <li><br /><h3 class="progress-text" style="font-family: 'MarvelouzTubeFont3';"><u>DB (Database)</u></h3><br /></li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp.png" /> Voting table for storing</h3></li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp_on.png" /> Proper storing of games</h3></li>
-                        <li><h3 class="progress-text"><img class="check" src="https://revtendo.github.io/Website/meta/image/icon_lamp.png" /> Proper cataloging</h3></li>
+                        <li><br><h class="progress-text" style="font-family: 'MarvelouzTubeFont3';">Front end</h></li>
+                        
+                        <li><h2 class="progress-text"><img class="check" src="../webfs/image/gfx/lamp_on.png" /> on</h2></li>
+                        <li><h2 class="progress-text"><img class="check" src="../webfs/image/gfx/lamp_off.png" /> off</h2></li>
                     </ul>
                 </section>
             </div>
         </div>
     </div>
+    <br>
     <div class="pill-button" onclick="location.href='#'">
         To top
     </div>
@@ -81,8 +66,8 @@
         <b style="margin-bottom:20px;">
                 <script>document.write(new Date().getFullYear())</script>  -  <span style="font-family:'MarvelouzTubeFont3'">r\\Shop</span>
         </b>
-        <b><a href="#" onclick="window.open('https://discord.gg/', '_blank')"><img src="meta/image/discord.webp" /> Discord</a></b>
-        <b style="margin-bottom:20px;"><a href="#" onclick="window.open('https://www.youtube.com/', '_blank')"><img src="meta/image/yticon.png" /> Youtube</a></b>
+        <b><a href="#" onclick="window.open('https://discord.gg/', '_blank')"><img src="../webfs/image/gfx/discord.webp" /> Discord</a></b>
+        <b style="margin-bottom:20px;"><a href="#" onclick="window.open('https://www.youtube.com/', '_blank')"><img src="../webfs/image/gfx/yticon.png" /> Youtube</a></b>
     </footer>
 </body>
 
