@@ -11,9 +11,6 @@
             location = "group:wiiu.css">
          </FileRef>
          <FileRef
-            location = "group:wiiu old.css">
-         </FileRef>
-         <FileRef
             location = "group:style.css">
          </FileRef>
          <FileRef
@@ -429,12 +426,18 @@
                <FileRef
                   location = "group:SE_CTR_THEME_LIST_PUT.wav">
                </FileRef>
+               <FileRef
+                  location = "group:SE_CTR_COMMON_OK.wav">
+               </FileRef>
             </Group>
             <FileRef
                location = "group:SE_CTR_HOME_TOUCH.wav">
             </FileRef>
             <FileRef
-               location = "group:SE_CTR_COMMON_OK.wav">
+               location = "group:SE_CTR_COMMON_BUTTON.wav">
+            </FileRef>
+            <FileRef
+               location = "group:SE_CTR_COMMON_RETURN.wav">
             </FileRef>
          </Group>
       </Group>
