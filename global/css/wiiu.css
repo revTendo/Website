@@ -86,6 +86,7 @@ body {
     padding-right: 1vw;
     border-radius: 1vw;
     display: flex;
+    box-shadow: 0px 0px 20px #ccc;
 }
 
 .top-header button {
