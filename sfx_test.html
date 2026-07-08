@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>revTendo</title>
-        <link rel="stylesheet" href="webfs/css/wiiu.css">
-        <link rel="icon" href="webfs/tabicon.png" type="image/x-icon">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta property="og:url" content="https://revtendo.github.io/Website/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="revTendo's website">
+    <meta property="og:description" content="revTendo's website">
+    <title>revTendo</title>
+    <link rel="stylesheet" href="global/main.css">
+    <link rel="icon" type="image/x-icon" href="global/tabicon.png">
+</head>
 <body>
-    <script src="webfs/functions/sfx.js"></script>
-    <div class="top-header">
-        <button onclick="window.location.href='https://revtendo.github.io/Website/'" type="button"><img src="webfs/image/logo.png" alt="revTendo"></button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/3ds/'" type="button" class="3ds">3DS</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/wiiu/'" type="button" class="wiiu">Wii U</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/support/'" type="button">Support</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/faq/'" type="button">FAQ</button>
-    </div>
-    <br>
-    <br>
-    SFX Test
-    <br>
-    <br>
-    <div class="pill-button wiiu" >
-                Go Wii U
-    </div>
-    <br>
-    <div class="pill-button golongU" >
-        Go Into Wii U
-    </div>
-    <br>
-    <div class="pill-button bacU" >
-        Back Wii U
-    </div>
-    <br>
-    <div class="pill-button homeU" >
-        Reload Wii U
-    </div>
-    <br>
-    <div class="pill-button 3ds" >
-        Go 3DS
-    </div>
-    <br>
-    <div class="pill-button bacDS" >
-        Back 3DS
-    </div>
-    <br>
+    <script src="global/functions/sfx.js"></script>
+    <header class="header-container" onclick="location.reload()">
+        <button type="button" class="top-button home"><b id="header-text">r\vTendo</b></button>
+    </header>
+    <main class="main-container">
+        SFX Test
+            <div class="pill-button discord-btn" >
+                Go
+            </div>
+            <div class="pill-button golong discord-btn" >
+                Go Into
+            </div>
+            <div class="pill-button bac discord-btn" >
+                Back
+            </div>
+            <div class="pill-button home discord-btn" >
+                Reload
+            </div>
+        </section>
+    </main>
+    <footer>
+        <b>Navigation:</b>
+        <ul>
+            <li><a href="https://revtendo.github.io/Website/">Home</a></li>
+            <li><a href="https://revtendo.github.io/Website/policy/">Policy</a></li>
+            <li><a href="https://revtendo.github.io/Website/guide/">Guide</a></li>
+            <li><a href="https://revtendo.github.io/Website/progress/">Progress</a></li>
+            <!--li><a href="https://revtendo.github.io/Website/news/">News</a></li-->
+        </ul>
+        <hr />
+        <b style="margin-bottom:20px;">
+                <script>document.write(new Date().getFullYear())</script>  -  <span style="font-family:'MarvelouzTubeFont3'">r\Shop</span>
+        </b>
+        <b><a href="#" onclick="window.open('https://discord.gg/', '_blank')"><img src="global/image/gfx/discord.webp" /> Discord</a></b>
+        <b style="margin-bottom:20px;"><a href="#" onclick="window.open('https://www.youtube.com/', '_blank')"><img src="global/image/gfx/yticon.png" /> Youtube</a></b>
+    </footer>
+    <script>
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function () {
+if (this.readyState == 4 && this.status == 200) {
+myFunction(this);
+}
+};
+xhttp.open("GET", "https://revtendo.github.io/Website/news/news.xml", true);
+xhttp.send();
+
+function myFunction(xml) {
+var xmlDoc = xml.responseXML;
+document.getElementById("name").innerHTML =
+xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+document.getElementById("date").innerHTML =
+xmlDoc.getElementsByTagName("date")[0].childNodes[0].nodeValue;
+document.getElementById("data").innerHTML =
+xmlDoc.getElementsByTagName("data")[0].childNodes[0].nodeValue;
+            }
+    </script>
 </body>
 </html>
 
