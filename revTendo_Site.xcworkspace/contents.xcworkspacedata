@@ -2,8 +2,8 @@
 <Workspace
    version = "1.0">
    <Group
-      location = "group:webfs"
-      name = "webfs">
+      location = "group:global"
+      name = "global">
       <Group
          location = "group:css"
          name = "css">
@@ -26,102 +26,6 @@
             <FileRef
                location = "group:WAV_248_GUESS_BANK_MEN.wav">
             </FileRef>
-            <Group
-               location = "group:temp"
-               name = "temp">
-               <Group
-                  location = "group:Wii U Menu SFX"
-                  name = "Wii U Menu SFX">
-                  <FileRef
-                     location = "group:WAV_258_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_249_GUESS_WARC_1_GUESS_GROUP_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_255_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_241_GUESS_WARC_1_GUESS_GROUP_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_256_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_246_GUESS_WARC_1_GUESS_GROUP_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_260_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_263_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_253_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_243_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_251_GUESS_WARC_1_GUESS_GROUP_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_262_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_242_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_252_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_261_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_250_GUESS_WARC_1_GUESS_GROUP_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_257_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_259_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_254_GUESS_BANK_MEN.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:WAV_264_GUESS_BANK_MEN.wav">
-                  </FileRef>
-               </Group>
-               <Group
-                  location = "group:Wii U GamePad Firmware Sounds"
-                  name = "Wii U GamePad Firmware Sounds">
-                  <FileRef
-                     location = "group:connect.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:timeout.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:click_release.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:close.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:click.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:error.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:tv_remote.wav">
-                  </FileRef>
-                  <FileRef
-                     location = "group:tv_click.wav">
-                  </FileRef>
-               </Group>
-            </Group>
             <FileRef
                location = "group:WAV_245_GUESS_WARC_1_GUESS_GROUP_MEN.wav">
             </FileRef>
@@ -138,316 +42,20 @@
          <Group
             location = "group:3ds"
             name = "3ds">
-            <Group
-               location = "group:temp"
-               name = "temp">
-               <FileRef
-                  location = "group:SE_CTR_HOME_CHECK_BTN.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_BANNER_BASHOTORYA.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_MYMENU_IN.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_SUB_MENU_BTN.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_BADGE_FLOAT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_RETURN.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_FRIEND.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_BADGE_REMOVE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_SCROLL_TEXT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_HOMEBUTTON_DS.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_BADGE_DISAPPEAR.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_CHECK_BTN_OFF.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_BANNER_PRESENTV1.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_THEME_LIST_OVER.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_START_EFFECT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_WAIT_END.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_WAIT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_CAPTURE_START.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_SILENT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_CLOSE_FOLDER.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_ICON_SELECT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_MYMENU_ZOOM_IN.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_NEWAPP_DIALOG.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_CHECK_BTN_INVALID.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_SLIDE_BTN_CENTER.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_MYMENU_ZOOM_OUT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_BANNER_INVALID.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_ERROR.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_NOMOVE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_CAPTURE_END.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_MYMENU_DELETE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_NEWS.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_MYMENU_OUT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_BANNER_DS_CARD.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_OPEN_WRAPPED.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_ICON_GRAB.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_ICON_SCROLL.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_BADGE_SLIDE_LIST.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_BANNER_TURN.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_CANCEL.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_EX_ICON_SCROLL.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_LINE_DEC.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_THEME_LIST_FLOAT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_SPIDER.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_SLIDE_BTN_EDGE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_THEME_DECIDE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_BADGE_CHANGE_CATEGORY.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_NEWAPP_DIALOG2.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_ICON_OVER.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_ICON_TOUCH.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_NEWAPP_DIALOG3.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_CAMERA.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_MYMENU_DECIDE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_NEWAPP_OUT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_BADGE_REPLACE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_POPUP_POWER.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_SCROLL_LIST.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_BANNER_PRESENT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_SYSAPPLET_END.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_LINE_INC.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_DIALOG.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_SELECT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_ICON_DROP_FOLDER.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_START.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_POPUP_BGDL.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_HOMEBUTTON_RETURN.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_BADGE_APPEAR.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_BADGE_CHANGE_CATEGORY_SLIDE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_CONNECT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_ICON_SCROLL_INVALID.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_BANNER_LOCKED.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_NEWAPP_IN.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_BUTTON.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_SCROLL_END.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_MYMENU_SAVE_MOVE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_LIGHT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_HOMEBUTTON.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_BANNER_DSIWARE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_MYMENU_SAVE_UP.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_ICON_EXCHANGE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_MYMENU_SAVE_DOWN.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_SCROLL.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_SD_INSERT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_NOTICE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_BANNER_SHOW.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_ICON_RELEASE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_WELCOME.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_POPUP_INF2.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_POPUP_INF.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_CHERRY.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_POPUP_FRIEND_ONLINE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_BADGE_BACK.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_OPEN_FOLDER.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_HOME_POPUP_ZONE.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_THEME_LIST_PUT.wav">
-               </FileRef>
-               <FileRef
-                  location = "group:SE_CTR_COMMON_OK.wav">
-               </FileRef>
-            </Group>
+            <FileRef
+               location = "group:SE_CTR_COMMON_RETURN.wav">
+            </FileRef>
             <FileRef
                location = "group:SE_CTR_HOME_TOUCH.wav">
             </FileRef>
             <FileRef
                location = "group:SE_CTR_COMMON_BUTTON.wav">
             </FileRef>
-            <FileRef
-               location = "group:SE_CTR_COMMON_RETURN.wav">
-            </FileRef>
          </Group>
       </Group>
       <Group
          location = "group:image"
          name = "image">
-         <FileSystemSynchronizedGroup
-            location = "group:3ds"
-            name = "3ds">
-         </FileSystemSynchronizedGroup>
          <Group
             location = "group:pfp"
             name = "pfp">
@@ -493,15 +101,49 @@
             </FileRef>
          </Group>
          <FileRef
+            location = "group:3ds-selection.png">
+         </FileRef>
+         <FileRef
             location = "group:sm3dwthumbnail.jpg">
          </FileRef>
          <FileRef
             location = "group:sadmario.jpg">
          </FileRef>
-         <FileSystemSynchronizedGroup
+         <Group
             location = "group:wiiu"
             name = "wiiu">
-         </FileSystemSynchronizedGroup>
+            <FileRef
+               location = "group:logo-wiiu.png">
+            </FileRef>
+            <FileRef
+               location = "group:frutiger 20 mins.png">
+            </FileRef>
+            <FileRef
+               location = "group:lamp_off.png">
+            </FileRef>
+            <FileRef
+               location = "group:lamp_on.png">
+            </FileRef>
+            <FileRef
+               location = "group:bg.png">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:wiiu-selection.png">
+         </FileRef>
+         <FileRef
+            location = "group:logo.png">
+         </FileRef>
+         <Group
+            location = "group:3ds"
+            name = "3ds">
+            <FileRef
+               location = "group:logo-3ds.png">
+            </FileRef>
+            <FileRef
+               location = "group:bg.png">
+            </FileRef>
+         </Group>
          <Group
             location = "group:gfx"
             name = "gfx">
@@ -519,16 +161,7 @@
             location = "group:thumb.png">
          </FileRef>
          <FileRef
-            location = "group:3ds-selection.png">
-         </FileRef>
-         <FileRef
             location = "group:bg.png">
-         </FileRef>
-         <FileRef
-            location = "group:wiiu-selection.png">
-         </FileRef>
-         <FileRef
-            location = "group:logo.png">
          </FileRef>
       </Group>
       <Group
@@ -552,10 +185,10 @@
             location = "group:FOT-RodinNTLG Pro DB.otf">
          </FileRef>
          <FileRef
-            location = "group:Digital Sans EF Medium.ttf">
+            location = "group:MarvelouzTube Font 3.ttf">
          </FileRef>
          <FileRef
-            location = "group:MarvelouzTube Font 3.ttf">
+            location = "group:Digital Sans EF Medium.ttf">
          </FileRef>
          <FileRef
             location = "group:bank gothic medium bt.ttf">

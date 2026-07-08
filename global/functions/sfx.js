@@ -1,5 +1,5 @@
 // Automatically detect where the script is located to make audio paths bulletproof on any subpage!
-const scriptBase = document.currentScript ? document.currentScript.src.replace(/functions\/sfx\.js$/, '') : 'webfs/';
+const scriptBase = document.currentScript ? document.currentScript.src.replace(/functions\/sfx\.js$/, '') : 'global/';
 
 // Pre-load the sounds dynamically based on the script's true location
 const PressU = new Audio(scriptBase + 'sfx/wiiu/WAV_240_GUESS_BANK_MEN.wav');
