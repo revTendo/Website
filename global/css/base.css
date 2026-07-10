@@ -224,14 +224,6 @@ main {
     font-weight: 700;
 }
 
-.lede {
-    max-width: 46ch;
-    margin: 0.75rem auto 0;
-    text-align: center;
-    color: var(--ink-dim);
-    font-size: 1.05rem;
-}
-
 .section-title {
     margin: 0 0 1.25rem;
     font-family: var(--display);
@@ -599,6 +591,7 @@ main {
 
 .error-art {
     width: min(100%, 34rem);
+    height: auto;
     border-radius: var(--radius);
     box-shadow: var(--shadow-soft);
 }
