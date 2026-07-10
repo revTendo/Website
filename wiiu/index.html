@@ -11,20 +11,22 @@
     <meta property="og:description" content="The state of revTendo on Wii U.">
     <meta property="og:image" content="/global/image/logo.png">
     <title>Wii U - revTendo</title>
+
     <link rel="icon" href="/global/tabicon.png" type="image/png">
     <link rel="preload" href="/global/font/FOT-RodinNTLG Pro DB.otf" as="font" type="font/otf" crossorigin>
     <link rel="stylesheet" href="/global/css/base.css">
     <link rel="stylesheet" href="/global/css/wiiu.css">
+
+    <script src="/global/functions/constants.js" defer></script>
     <script src="/global/functions/sfx.js" defer></script>
+
+    <!-- dynamically built page elements -->
+    <script src="/global/functions/navbar.js" defer></script>
+    <script src="/global/functions/footer.js" defer></script>
 </head>
 <body>
-    <nav class="top-header" aria-label="Main">
-        <a class="nav-home" href="/" aria-label="revTendo home"><img src="/global/image/logo.png" alt="revTendo" width="1000" height="240"></a>
-        <a class="3ds" href="/3ds/">3DS</a>
-        <a class="wiiu" href="/wiiu/" aria-current="page">Wii U</a>
-        <a href="/support/">Support</a>
-        <a href="/faq/">FAQ</a>
-        <a href="/staff/">Staff</a>
+    <nav class="top-header" aria-label="Main" id="navbar">
+        <!-- dynamically filled -->
     </nav>
 
     <main>
@@ -57,35 +59,6 @@
     </main>
 
     <footer class="site-footer">
-        <div>
-            <h2>Navigate</h2>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/3ds/">3DS</a></li>
-                <li><a href="/wiiu/">Wii U</a></li>
-                <li><a href="/support/">Support</a></li>
-                <li><a href="/faq/">FAQ</a></li>
-                <li><a href="/staff/">Staff</a></li>
-            </ul>
-        </div>
-        <div>
-            <h2>Progress</h2>
-            <ul>
-                <li><a href="/3ds/progress/">3DS progress</a></li>
-                <li><a href="/wiiu/progress/">Wii U progress</a></li>
-            </ul>
-        </div>
-        <div>
-            <h2>Community</h2>
-            <ul>
-                <li><a href="https://discord.gg/" target="_blank" rel="noopener"><img src="/global/image/gfx/discord.webp" alt=""> Discord</a></li>
-                <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"><img src="/global/image/gfx/yticon.png" alt=""> YouTube</a></li>
-            </ul>
-        </div>
-        <div class="footer-mark">
-            &copy; <span id="year"></span> revTendo
-        </div>
+        
     </footer>
-    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
-</body>
 </html>

@@ -1,0 +1,33 @@
+@view-transition {
+  navigation: auto;
+}
+
+@keyframes view-transition-old {
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+}
+
+@keyframes view-transition-new {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+::view-transition-old(root) {
+    animation: view-transition-old 0.3s ease-in-out;
+}
+
+::view-transition-new(root) {
+    animation: view-transition-new 0.3s ease-in-out;
+}
