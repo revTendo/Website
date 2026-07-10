@@ -1,133 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>revTendo - Staff</title>
-        <link rel="stylesheet" href="../global/css/style.css">
-        <link rel="icon" href="../global/tabicon.png" type="image/x-icon">
-        <style>
-            .role-title {
-                font-weight: bold;
-            }
-            
-            .gradient-text {
-                background-clip: text;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-            }
-
-            .founder { background-image: linear-gradient(to right, #612424, #ff0000); }
-            .owner { background-image: linear-gradient(to right, #ff0000, #570000); }
-            .co-owner { color: gray; }
-            .head-staff { background-image: linear-gradient(to right, #00750c, #00ffc0); }
-            .admin { background-image: linear-gradient(to right, #7335e6, #8d4cd8); }
-            .moderator { background-image: linear-gradient(to right, #369876, #71ff9e); }
-            .trial-mod { background-image: linear-gradient(to right, #d94949, #f05b5b); }
-            .developer { color: #206694; }
-            .content-manager { background-image: linear-gradient(to right, #ff7700, #ffa871); }
-            .asset-designer { background-image: linear-gradient(to right, #ff5dd6, #ff9cbf); }
-            .video-editor { background-image: linear-gradient(to right, #749472, #b3e1b9); }
-        </style>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="theme-color" content="#0060f5">
+    <meta name="description" content="The people who build, run, and moderate revTendo.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Staff - revTendo">
+    <meta property="og:description" content="The people who build, run, and moderate revTendo.">
+    <meta property="og:image" content="/global/image/logo.png">
+    <title>Staff - revTendo</title>
+    <link rel="icon" href="/global/tabicon.png" type="image/png">
+    <link rel="preload" href="/global/font/FOT-RodinNTLG Pro DB.otf" as="font" type="font/otf" crossorigin>
+    <link rel="stylesheet" href="/global/css/base.css">
+    <link rel="stylesheet" href="/global/css/style.css">
+    <script src="/global/functions/sfx.js" defer></script>
+</head>
 <body>
-    <script src="../global/functions/sfx.js"></script>
-    <div class="top-header">
-        <button onclick="window.location.href='https://revtendo.github.io/Website/'" type="button"><img src="../global/image/logo.png" alt="revTendo"></button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/3ds/'" type="button" class="3ds">3DS</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/wiiu/'" type="button" class="wiiu">Wii U</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/support/'" type="button">Support</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/faq/'" type="button">FAQ</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/staff/'" type="button">Staff</button>
-    </div>
-    
-    <p class="first-header"><span class="role-title gradient-text founder">Founder</span></p>
-    <div class="staff-list">
-        Pinecone
-    </div>
+    <nav class="top-header" aria-label="Main">
+        <a class="nav-home" href="/" aria-label="revTendo home"><img src="/global/image/logo.png" alt="revTendo" width="1000" height="240"></a>
+        <a class="3ds" href="/3ds/">3DS</a>
+        <a class="wiiu" href="/wiiu/">Wii U</a>
+        <a href="/support/">Support</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/staff/" aria-current="page">Staff</a>
+    </nav>
 
-    <p class="first-header"><span class="role-title gradient-text owner">Owner</span></p>
-    <div class="staff-list">
-        Pinecone<br>
-        Neodymium Magnet
-    </div>
+    <main>
+        <div>
+            <h1 class="first-header">Staff</h1>
+            <p class="lede">The people who build, run, and moderate revTendo.</p>
+        </div>
 
-    <p class="first-header"><span class="role-title co-owner">Co-owner</span></p>
-    <div class="staff-list"></div>
+        <div class="staff-grid">
+            <article class="staff-card">
+                <h2><span class="role role-founder">Founder</span></h2>
+                <ul>
+                    <li>Pinecone</li>
+                </ul>
+            </article>
+            <article class="staff-card">
+                <h2><span class="role role-owner">Owner</span></h2>
+                <ul>
+                    <li>Pinecone</li>
+                    <li>Neodymium Magnet</li>
+                </ul>
+            </article>
+            <article class="staff-card">
+                <h2><span class="role role-co-owner">Co-owner</span></h2>
+                <ul>
+                    <li class="empty">Nobody right now</li>
+                </ul>
+            </article>
+            <article class="staff-card">
+                <h2><span class="role role-head-staff">Head Staff</span></h2>
+                <ul>
+                    <li>cannedfart</li>
+                    <li>nebulagamez</li>
+                </ul>
+            </article>
+            <article class="staff-card">
+                <h2><span class="role role-admin">Admin</span></h2>
+                <ul>
+                    <li>cannedfart</li>
+                    <li>nebulagamez</li>
+                    <li>FunDog</li>
+                    <li>Vista</li>
+                    <li>Neodymium Magnet</li>
+                </ul>
+            </article>
+            <article class="staff-card">
+                <h2><span class="role role-moderator">Moderator</span></h2>
+                <ul>
+                    <li>CerealXD</li>
+                    <li>Gelocami</li>
+                    <li>KittyKat</li>
+                    <li>Neodymium Magnet</li>
+                    <li>Neostatic</li>
+                    <li>Pinecone</li>
+                    <li>Fishardius</li>
+                    <li>Summer :3</li>
+                    <li>vista</li>
+                    <li>Winter :3</li>
+                </ul>
+            </article>
+            <article class="staff-card">
+                <h2><span class="role role-trial-mod">Trial Moderator</span></h2>
+                <ul>
+                    <li>ayceed.</li>
+                    <li>DeZBuff</li>
+                    <li>Khentendo</li>
+                    <li>N3DS MCU Annihilator 90000000</li>
+                    <li>Ocarina ッ</li>
+                    <li>synikers</li>
+                </ul>
+            </article>
+            <article class="staff-card">
+                <h2><span class="role role-developer">Developer</span></h2>
+                <ul>
+                    <li>Pinecone</li>
+                    <li>Neodymium Magnet</li>
+                    <li>KittyKat</li>
+                </ul>
+            </article>
+            <article class="staff-card">
+                <h2><span class="role role-content">Content Manager</span></h2>
+                <ul>
+                    <li>KittyKat</li>
+                    <li>Vista</li>
+                </ul>
+            </article>
+            <article class="staff-card">
+                <h2><span class="role role-pr">PR Manager</span></h2>
+                <ul>
+                    <li>KittyKat</li>
+                </ul>
+            </article>
+            <article class="staff-card">
+                <h2><span class="role role-pr">Public Relations</span></h2>
+                <ul>
+                    <li>KittyKat</li>
+                    <li>Neostatic</li>
+                </ul>
+            </article>
+            <article class="staff-card">
+                <h2><span class="role role-asset">Asset Designer</span></h2>
+                <ul>
+                    <li>KittyKat</li>
+                    <li>Neostatic</li>
+                    <li>Vista</li>
+                    <li>Winter :3</li>
+                </ul>
+            </article>
+            <article class="staff-card">
+                <h2><span class="role role-video">Video Editor</span></h2>
+                <ul>
+                    <li>ayceed.</li>
+                    <li>KittyKat</li>
+                </ul>
+            </article>
+        </div>
+    </main>
 
-    <p class="first-header"><span class="role-title gradient-text head-staff">Head Staff</span></p>
-    <div class="staff-list">
-        cannedfart<br>
-        nebulagamez
-    </div>
-
-    <p class="first-header"><span class="role-title gradient-text admin">Admin</span></p>
-    <div class="staff-list">
-        cannedfart<br>
-        nebulagamez<br>
-        FunDog<br>
-        Vista<br>
-        Neodymium Magnet
-    </div>
-
-    <p class="first-header"><span class="role-title gradient-text moderator">Moderator</span></p>
-    <div class="staff-list">
-        CerealXD<br>
-        Gelocami<br>
-        KittyKat<br>
-        Neodymium Magnet<br>
-        Neostatic<br>
-        Pinecone<br>
-        Fishardius<br>
-        Summer :3<br>
-        vista<br>
-        Winter :3
-    </div>
-
-    <p class="first-header"><span class="role-title gradient-text trial-mod">Trial Moderator</span></p>
-    <div class="staff-list">
-        ayceed.<br>
-        DeZBuff<br>
-        Khentendo<br>
-        N3DS MCU Annihilator 90000000<br>
-        Ocarina ッ<br>
-        synikers
-    </div>
-
-    <p class="first-header"><span class="role-title developer">Developer</span></p>
-    <div class="staff-list">
-        Pinecone<br>
-        Neodymium Magnet<br>
-        KittyKat
-    </div>
-
-    <p class="first-header"><span class="role-title gradient-text content-manager">Content Manager</span></p>
-    <div class="staff-list">
-        KittyKat<br>
-        Vista
-    </div>
-
-    <p class="first-header"><b>PR Manager</b></p>
-    <div class="staff-list">
-        KittyKat
-    </div>
-
-    <p class="first-header"><b>Public Relations</b></p>
-    <div class="staff-list">
-        KittyKat<br>
-        Neostatic
-    </div>
-
-    <p class="first-header"><span class="role-title gradient-text asset-designer">Asset Designer</span></p>
-    <div class="staff-list">
-        KittyKat<br>
-        Neostatic<br>
-        Vista<br>
-        Winter :3
-    </div>
-
-    <p class="first-header"><span class="role-title gradient-text video-editor">Video Editor</span></p>
-    <div class="staff-list">
-        ayceed.<br>
-        KittyKat
-    </div>
+    <footer class="site-footer">
+        <div>
+            <h2>Navigate</h2>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/3ds/">3DS</a></li>
+                <li><a href="/wiiu/">Wii U</a></li>
+                <li><a href="/support/">Support</a></li>
+                <li><a href="/faq/">FAQ</a></li>
+                <li><a href="/staff/">Staff</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Progress</h2>
+            <ul>
+                <li><a href="/3ds/progress/">3DS progress</a></li>
+                <li><a href="/wiiu/progress/">Wii U progress</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Community</h2>
+            <ul>
+                <li><a href="https://discord.gg/" target="_blank" rel="noopener"><img src="/global/image/gfx/discord.webp" alt=""> Discord</a></li>
+                <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"><img src="/global/image/gfx/yticon.png" alt=""> YouTube</a></li>
+            </ul>
+        </div>
+        <div class="footer-mark">
+            &copy; <span id="year"></span> revTendo
+        </div>
+    </footer>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>

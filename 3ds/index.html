@@ -1,40 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>revTendo</title>
-    <link rel="stylesheet" href="../global/css/3ds.css">
-    <link rel="icon" href="../global/tabicon.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="theme-color" content="#a30000">
+    <meta name="description" content="How to connect your Nintendo 3DS to revTendo.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="3DS - revTendo">
+    <meta property="og:description" content="How to connect your Nintendo 3DS to revTendo.">
+    <meta property="og:image" content="/global/image/logo.png">
+    <title>3DS - revTendo</title>
+    <link rel="icon" href="/global/tabicon.png" type="image/png">
+    <link rel="preload" href="/global/font/FOT-RodinNTLG Pro DB.otf" as="font" type="font/otf" crossorigin>
+    <link rel="stylesheet" href="/global/css/base.css">
+    <link rel="stylesheet" href="/global/css/3ds.css">
+    <script src="/global/functions/sfx.js" defer></script>
 </head>
 <body>
-    <script src="../global/functions/sfx.js"></script>
-<nav class="top-header">
-        <button onclick="window.location.href='https://revtendo.github.io/Website/'" type="button" aria-label="Home">
-            <img src="../global/image/logo.png" alt="revTendo Logo">
-        </button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/3ds/'" type="button" class="3ds">3DS</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/wiiu/'" type="button" class="wiiu">Wii U</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/support/'" type="button">Support</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/faq/'" type="button">FAQ</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/staff/'" type="button">Staff</button>
+    <nav class="top-header" aria-label="Main">
+        <a class="nav-home" href="/" aria-label="revTendo home"><img src="/global/image/logo.png" alt="revTendo" width="1000" height="240"></a>
+        <a class="3ds" href="/3ds/" aria-current="page">3DS</a>
+        <a class="wiiu" href="/wiiu/">Wii U</a>
+        <a href="/support/">Support</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/staff/">Staff</a>
     </nav>
-    <p class="first-header">revtendo <img src="../global/image/3ds/logo-3ds.png" alt="revTendo"></p>
-    <p style="text-align: center; width: 40%; font-size: 1.2vw; line-height: 2;">
-        How to connect to revTendo?
-        <br />
-        <br />
-        Requirements:
-        <br />
-        • a working Nintendo 3/2DS (emulators are not supported)
-        <br />
-        • a working internet connection
-        <br /> 
-        • credentials from <a href="https://pine-cone.xyz/reBadge" target="_blank">https://pine-cone.xyz/reBadge</a>
-        <br />
-        <br />
-        How to connect:
-        <br />
-        Turn on your 3DS, go into the internet settings, select your connection, and set a proxy. IP is 89.167.6.41, Port is 8081. Then, click on the right arrow on the touch screen, enable Basic Authentication, and set the username and password that the website gave you. Once done, you can open the eShop and Badge Arcade!
-P.S. You have to be in our Discord to be able to generate proxy credentials. This is because leaving the proxy into the wild like that is a nice way to get it stolen (It already happened in the past). This will change with the release of the Inkay and 3DS patches. Stay tuned!
-    </p>
+
+    <main>
+        <h1 class="first-header">revTendo <img src="/global/image/3ds/logo-3ds.png" alt="3DS" width="200" height="100"></h1>
+
+        <section class="info-card">
+            <div class="card-header">Before you start</div>
+            <div class="card-body">
+                <ul class="info-list">
+                    <li>A working Nintendo 3DS or 2DS. Emulators are not supported.</li>
+                    <li>A working internet connection.</li>
+                    <li>Credentials from <a href="https://pine-cone.xyz/reBadge" target="_blank" rel="noopener">pine-cone.xyz/reBadge</a>.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="info-card">
+            <div class="card-header">Connect your console</div>
+            <div class="card-body">
+                <ol class="step-list">
+                    <li>Turn on your 3DS and open the internet settings.</li>
+                    <li>Select your connection and set a proxy.</li>
+                    <li>Enter the IP <span class="kv">89.167.6.41</span> and the port <span class="kv">8081</span>.</li>
+                    <li>Tap the right arrow on the touch screen and enable basic authentication.</li>
+                    <li>Enter the username and password the website gave you.</li>
+                    <li>Open the eShop and Badge Arcade.</li>
+                </ol>
+                <p class="notice">
+                    You need to be in the Discord to generate proxy credentials. Leaving the proxy open in
+                    the wild is a good way to get it stolen, and that has already happened once. This changes
+                    when the Inkay and 3DS patches are released.
+                </p>
+            </div>
+        </section>
+
+        <div class="button-row">
+            <a class="pill-button is-primary 3ds" href="/3ds/progress/">See what's working</a>
+            <a class="pill-button 3ds" href="https://discord.gg/" target="_blank" rel="noopener">Join the Discord</a>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <h2>Navigate</h2>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/3ds/">3DS</a></li>
+                <li><a href="/wiiu/">Wii U</a></li>
+                <li><a href="/support/">Support</a></li>
+                <li><a href="/faq/">FAQ</a></li>
+                <li><a href="/staff/">Staff</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Progress</h2>
+            <ul>
+                <li><a href="/3ds/progress/">3DS progress</a></li>
+                <li><a href="/wiiu/progress/">Wii U progress</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Community</h2>
+            <ul>
+                <li><a href="https://discord.gg/" target="_blank" rel="noopener"><img src="/global/image/gfx/discord.webp" alt=""> Discord</a></li>
+                <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"><img src="/global/image/gfx/yticon.png" alt=""> YouTube</a></li>
+            </ul>
+        </div>
+        <div class="footer-mark">
+            &copy; <span id="year"></span> revTendo
+        </div>
+    </footer>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>

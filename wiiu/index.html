@@ -1,22 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>revTendo</title>
-    <link rel="stylesheet" href="../global/css/wiiu.css">
-    <link rel="icon" href="../global/tabicon.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="theme-color" content="#006ce0">
+    <meta name="description" content="The state of the revTendo Wii U eShop revival.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Wii U - revTendo">
+    <meta property="og:description" content="The state of the revTendo Wii U eShop revival.">
+    <meta property="og:image" content="/global/image/logo.png">
+    <title>Wii U - revTendo</title>
+    <link rel="icon" href="/global/tabicon.png" type="image/png">
+    <link rel="preload" href="/global/font/FOT-RodinNTLG Pro DB.otf" as="font" type="font/otf" crossorigin>
+    <link rel="stylesheet" href="/global/css/base.css">
+    <link rel="stylesheet" href="/global/css/wiiu.css">
+    <script src="/global/functions/sfx.js" defer></script>
 </head>
 <body>
-    <script src="../global/functions/sfx.js"></script>
-<nav class="top-header">
-        <button onclick="window.location.href='https://revtendo.github.io/Website/'" type="button" aria-label="Home">
-            <img src="../global/image/logo.png" alt="revTendo Logo">
-        </button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/3ds/'" type="button" class="3ds">3DS</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/wiiu/'" type="button" class="wiiu">Wii U</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/support/'" type="button">Support</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/faq/'" type="button">FAQ</button>
-        <button onclick="window.location.href='https://revtendo.github.io/Website/staff/'" type="button">Staff</button>
+    <nav class="top-header" aria-label="Main">
+        <a class="nav-home" href="/" aria-label="revTendo home"><img src="/global/image/logo.png" alt="revTendo" width="1000" height="240"></a>
+        <a class="3ds" href="/3ds/">3DS</a>
+        <a class="wiiu" href="/wiiu/" aria-current="page">Wii U</a>
+        <a href="/support/">Support</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/staff/">Staff</a>
     </nav>
-    <p class="first-header">revTendo <img src="../global/image/wiiu/logo-wiiu.png" alt="revTendo"></p>
+
+    <main>
+        <h1 class="first-header">revTendo <img src="/global/image/wiiu/logo-wiiu.png" alt="Wii U" width="200" height="200"></h1>
+
+        <section class="info-card">
+            <div class="card-header">Where the Wii U stands</div>
+            <div class="card-body">
+                <p>
+                    The Wii U eShop is back. Real hardware loads the shop, browses it, and talks to our
+                    servers instead of Nintendo's.
+                </p>
+                <p>
+                    Setup instructions land here once the Inkay patch is out. Until then, follow the
+                    progress page or the Discord for updates.
+                </p>
+                <p class="notice">
+                    Nothing to install yet. Anyone offering you a Wii U revTendo download right now isn't us.
+                </p>
+            </div>
+        </section>
+
+        <div class="shot-grid">
+            <img src="/global/image/screenshots/screenshot1.webp" alt="revTendo setup screenshot" width="998" height="412" loading="lazy">
+            <img src="/global/image/screenshots/screenshot2.webp" alt="revTendo setup screenshot" width="826" height="363" loading="lazy">
+            <img src="/global/image/screenshots/screenshot3.webp" alt="revTendo setup screenshot" width="780" height="351" loading="lazy">
+            <img src="/global/image/screenshots/screenshot4.webp" alt="revTendo setup screenshot" width="4032" height="1702" loading="lazy">
+        </div>
+
+        <div class="button-row">
+            <a class="pill-button is-primary golongU" href="/wiiu/progress/">See what's working</a>
+            <a class="pill-button wiiu" href="https://discord.gg/" target="_blank" rel="noopener">Join the Discord</a>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <h2>Navigate</h2>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/3ds/">3DS</a></li>
+                <li><a href="/wiiu/">Wii U</a></li>
+                <li><a href="/support/">Support</a></li>
+                <li><a href="/faq/">FAQ</a></li>
+                <li><a href="/staff/">Staff</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Progress</h2>
+            <ul>
+                <li><a href="/3ds/progress/">3DS progress</a></li>
+                <li><a href="/wiiu/progress/">Wii U progress</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Community</h2>
+            <ul>
+                <li><a href="https://discord.gg/" target="_blank" rel="noopener"><img src="/global/image/gfx/discord.webp" alt=""> Discord</a></li>
+                <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"><img src="/global/image/gfx/yticon.png" alt=""> YouTube</a></li>
+            </ul>
+        </div>
+        <div class="footer-mark">
+            &copy; <span id="year"></span> revTendo
+        </div>
+    </footer>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
 </html>

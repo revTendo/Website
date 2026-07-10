@@ -1,82 +1,109 @@
-<!--https://revtendo.github.io/Website/progress/ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="referrer" content="strict-origin-when-cross-origin">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-    <meta property="og:url" content="https://revtendo.github.io/Website/progress/">
+    <meta name="theme-color" content="#006ce0">
+    <meta name="description" content="What already works on revTendo for Wii U.">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Progress">
-    <meta property="og:description" content="revTendo progress">
-    <title>revTendo</title>
-    <link rel="stylesheet" href="../global/main.css">
-    <link rel="icon" type="image/x-icon" href="../global/tabicon.png">
+    <meta property="og:title" content="Wii U progress - revTendo">
+    <meta property="og:description" content="What already works on revTendo for Wii U.">
+    <meta property="og:image" content="/global/image/logo.png">
+    <title>Wii U progress - revTendo</title>
+    <link rel="icon" href="/global/tabicon.png" type="image/png">
+    <link rel="preload" href="/global/font/FOT-RodinNTLG Pro DB.otf" as="font" type="font/otf" crossorigin>
+    <link rel="stylesheet" href="/global/css/base.css">
+    <link rel="stylesheet" href="/global/css/wiiu.css">
+    <script src="/global/functions/sfx.js" defer></script>
+    <script src="/global/functions/progress.js" defer></script>
 </head>
 <body>
-    <header class="header-container" onclick="location.href='https://revtendo.github.io/Website'">
-        <button type="button" class="top-button home"><b id="header-text">r\vTendo</b></button>
-    </header>
-    <div>
-        <!--i couldnt think of a better way to automate this-->
-        <script>
-            let percent = 5;
-        </script>
-        <section class="info-card extra-info-card">
-        <div class="card-header">- Progress -</div>
-        <div class="card-body">
-                <h3 class="ntext">
-                    Progress:
-                    <script>document.write(Math.round(100 / 100 * percent))</script>%
-                </h3>
-                <div id="progressid" class="progressbar" style="--maxvalue: 100; --value: 5;">
-                    <!--change the to a number +1 once another thing is finished in the progress repo-->
-                    <div id="value"></div>
+    <nav class="top-header" aria-label="Main">
+        <a class="nav-home" href="/" aria-label="revTendo home"><img src="/global/image/logo.png" alt="revTendo" width="1000" height="240"></a>
+        <a class="3ds" href="/3ds/">3DS</a>
+        <a class="wiiu" href="/wiiu/">Wii U</a>
+        <a href="/support/">Support</a>
+        <a href="/faq/">FAQ</a>
+        <a href="/staff/">Staff</a>
+    </nav>
+
+    <main>
+        <h1 class="first-header">Wii U progress</h1>
+
+        <section class="info-card">
+            <div class="card-header">- Progress -</div>
+            <div class="card-body">
+                <div class="progress-readout">
+                    <span class="label">Overall</span>
+                    <span class="value" data-progress-value>0%</span>
                 </div>
-            <div>
-                <section>
-                    <ul id="progresslist">
-                        <li><br><h class="progress-text" style="font-family: 'MarvelouzTubeFont3';">Front end</h></li>
-                        
-                        <li><h2 class="progress-text"><img class="check" src="../global/image/gfx/lamp_on.png" /> on</h2></li>
-                        <li><h2 class="progress-text"><img class="check" src="../global/image/gfx/lamp_off.png" /> off</h2></li>
+                <div class="progressbar" role="progressbar" aria-label="Wii U progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+                    <span></span>
+                </div>
+
+                <div class="progress-group">
+                    <h3>Front end</h3>
+                    <ul class="progress-list">
+                        <li data-done="true">eShop loads on hardware</li>
+                        <li data-done="true">Shop browsing and title pages</li>
+                        <li data-done="true">News feed</li>
                     </ul>
-                </section>
+                </div>
+                <div class="progress-group">
+                    <h3>Back end</h3>
+                    <ul class="progress-list">
+                        <li data-done="true">Shop data API (samurai)</li>
+                        <li data-done="true">Account and auth (ninja)</li>
+                        <li data-done="false">Title downloads</li>
+                    </ul>
+                </div>
+                <div class="progress-group">
+                    <h3>Release</h3>
+                    <ul class="progress-list">
+                        <li data-done="true">Inkay patch</li>
+                        <li data-done="false">Public setup guide</li>
+                    </ul>
+                </div>
             </div>
+        </section>
+
+        <div class="button-row">
+            <a class="pill-button bacU" href="/wiiu/">Back to Wii U</a>
+            <a class="pill-button" href="#">Back to top</a>
         </div>
-    </div>
-    <br>
-    <div class="pill-button" onclick="location.href='#'">
-        To top
-    </div>
-    <div class="pill-button" id="home-pill" onclick="location.href='https://revtendo.github.io/Website'">
-        Home Page
-    </div>
-    <footer>
-        <b>Navigation:</b>
-        <ul>
-            <li><a href="https://revtendo.github.io/Website/">Home</a></li>
-            <li><a href="https://revtendo.github.io/Website/policy/">Policy</a></li>
-            <li><a href="https://revtendo.github.io/Website/guide/">Guide</a></li>
-            <li><a href="https://revtendo.github.io/Website/progress/">Progress</a></li>
-            <!--li><a href="https://revtendo.github.io/Website/news/">News</a></li-->
-        </ul>
-        <hr />
-        <b style="margin-bottom:20px;">
-                <script>document.write(new Date().getFullYear())</script>  -  <span style="font-family:'MarvelouzTubeFont3'">r\\Shop</span>
-        </b>
-        <b><a href="#" onclick="window.open('https://discord.gg/', '_blank')"><img src="../global/image/gfx/discord.webp" /> Discord</a></b>
-        <b style="margin-bottom:20px;"><a href="#" onclick="window.open('https://www.youtube.com/', '_blank')"><img src="../global/image/gfx/yticon.png" /> Youtube</a></b>
+    </main>
+
+    <footer class="site-footer">
+        <div>
+            <h2>Navigate</h2>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/3ds/">3DS</a></li>
+                <li><a href="/wiiu/">Wii U</a></li>
+                <li><a href="/support/">Support</a></li>
+                <li><a href="/faq/">FAQ</a></li>
+                <li><a href="/staff/">Staff</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Progress</h2>
+            <ul>
+                <li><a href="/3ds/progress/">3DS progress</a></li>
+                <li><a href="/wiiu/progress/">Wii U progress</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2>Community</h2>
+            <ul>
+                <li><a href="https://discord.gg/" target="_blank" rel="noopener"><img src="/global/image/gfx/discord.webp" alt=""> Discord</a></li>
+                <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"><img src="/global/image/gfx/yticon.png" alt=""> YouTube</a></li>
+            </ul>
+        </div>
+        <div class="footer-mark">
+            &copy; <span id="year"></span> revTendo
+        </div>
     </footer>
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 </body>
-
 </html>
-
-
-
-
-
-
-
-
