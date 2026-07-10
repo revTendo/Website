@@ -12,6 +12,9 @@ The official revTendo website.
 - `global/functions/sfx.js` - console UI sounds
 - `global/functions/progress.js` - computes progress from the lists
 - `global/functions/api/news.js` - Cloudflare Pages function
+- `global/functions/constants.js` - Holds important info for JS usage across pages
+- `global/functions/navbar.js` - Navbar generation
+- `global/functions/footer.js` - Footer generation
 
 ## Editing progress
 
