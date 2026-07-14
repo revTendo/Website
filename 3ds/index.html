@@ -1,83 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="referrer" content="strict-origin-when-cross-origin">
-    <meta name="theme-color" content="#a30000">
-    <meta name="description" content="How to connect your 3DS to revTendo.">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="3DS - revTendo">
-    <meta property="og:description" content="How to connect your 3DS to revTendo.">
-    <meta property="og:image" content="/global/image/logo.png">
-    <title>3DS - revTendo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#a30000">
+  <meta name="description" content="Connect your 3DS to revTendo using the new proxyless patch.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="3DS Connection · revTendo">
+  <meta property="og:description" content="Proxyless patch is here. Follow the new steps to get your 3DS online with revTendo.">
+  <meta property="og:image" content="/global/image/logo.png">
+  <title>3DS · revTendo connection</title>
 
-    <link rel="icon" href="/global/tabicon.png" type="image/png">
-    <link rel="preload" href="/global/font/FOT-RodinNTLG Pro DB.otf" as="font" type="font/otf" crossorigin>
-    <link rel="stylesheet" href="/global/css/base.css">
-    <link rel="stylesheet" href="/global/css/3ds.css">
-    <script src="/global/functions/sfx.js" defer></script>
-    <script src="/global/functions/constants.js" defer></script>
-    
-    <!-- dynamically built page elements -->
-    <script src="/global/functions/navbar.js" defer></script>
-    <script src="/global/functions/footer.js" defer></script>
+  <link rel="icon" href="/global/tabicon.png" type="image/png">
+  <link rel="preload" href="/global/font/FOT-RodinNTLG Pro DB.otf" as="font" type="font/otf" crossorigin>
+  <link rel="stylesheet" href="/global/css/base.css">
+  <link rel="stylesheet" href="/global/css/3ds.css">
+  <script src="/global/functions/sfx.js" defer></script>
+  <script src="/global/functions/constants.js" defer></script>
+  <script src="/global/functions/navbar.js" defer></script>
+  <script src="/global/functions/footer.js" defer></script>
 </head>
 <body>
-    <nav class="top-header" aria-label="Main" id="navbar">
-        <!-- dynamically filled -->
-    </nav>
+  <nav class="top-header" aria-label="Main" id="navbar">
+  </nav>
 
-    <main>
-        <h1 class="first-header">revtendo <img src="/global/image/3ds/logo-3ds.png" alt="3DS" width="200" height="100"></h1>
+  <main>
+    <h1 class="first-header">revtendo <img src="/global/image/3ds/logo-3ds.png" alt="3DS" width="200" height="100"></h1>
 
-        <section class="info-card">
-            <div class="card-body">
-                <p>How to connect to revTendo?</p>
+    <section class="info-card">
+      <div class="card-body">
+        <p style="font-weight: 600; font-size: 1.2rem;">We are happy to announce that we are releasing our proxyless patch!</p>
 
-                <p>
-                    Requirements:
-                    <br>
-                    &bull; a working Nintendo 3DS / 2DS (emulators are <b>not</b> supported)
-                    <br>
-                    &bull; a working internet connection
-                    <br>
-                    &bull; credentials from <a href="https://pine-cone.xyz/reBadge" target="_blank" rel="noopener">https://pine-cone.xyz/reBadge</a>
-                </p>
+        <h2 class="subsection-title">So here's how to connect:</h2>
 
-                <p>
-                    How to connect:
-                    <br>
-                    <ul>
-                        <li>Open the System Settings on your 3DS</li>
-                        <li>Go to Internet Settings</li>
-                        <li>Go to Connection Settings</li>
-                        <li>Choose a connection and select Change Settings</li>
-                        <li>Change the DNS settings to Manual</li>
-                        <li>Set the Primary DNS to <code id="ip"></code> and port to <code id="port"></code></li>
-                        <li>Enable Basic Authentication</li>
-                        <li>Enter your credentials from <a href="https://pine-cone.xyz/reBadge" target="_blank" rel="noopener">https://pine-cone.xyz/reBadge</a></li>
-                    </ul>
-                    <br>
-                    <i>You need to be in the Discord server for security reasons.</i>
-                </p>
+        <ol class="connection-steps">
+          <li>
+            <strong>Prepare your SD card</strong><br>
+            Drag the <code>3ds</code> and <code>cias</code> folders to the root of your SD card.
+            <span class="step-note">The folders are inside the <code>combined_out</code> folder.</span>
+          </li>
+          <li class="step-sub">
+            <strong>Handle file conflicts</strong><br>
+            If your file manager asks to replace existing files when dragging the <code>3ds</code> folder, click <strong>replace</strong>.
+          </li>
+          <li>
+            <strong>Install revNet (FBI)</strong><br>
+            Open <strong>FBI</strong> on your 3DS, navigate to the <code>cias</code> folder on your SD card, and install the <strong>revNet CIA</strong>. It will appear on your HOME Menu.
+          </li>
+          <li class="step-sub">
+            <strong>Alternative: Homebrew Launcher</strong><br>
+            If you prefer not having revNet on your home screen, open the <strong>Homebrew Launcher</strong> and launch the revNet app from there.
+          </li>
+          <li>
+            <strong>First launch & update</strong><br>
+            Open <strong>revNet</strong>. It should display a message that it has updated. Press <strong>Start</strong> to reboot your console.
+          </li>
+          <li>
+            <strong>Switch to revTendo</strong><br>
+            After the reboot, open the <strong>revNet</strong> application again and switch the active service to <strong>revTendo</strong>.
+            <div class="warning-box">
+              <strong>For users coming from Brewtendo:</strong> Press <strong>Y</strong> to unlink your BNID <em>before</em> switching. You cannot use both services at the same time.
             </div>
-        </section>
+          </li>
+          <li>
+            <strong>Enjoy!</strong><br>
+            You are now connected to revTendo. Have fun!<br>
+            <span class="step-note">If revNet errors out after switching, simply reboot your console again.</span>
+          </li>
+        </ol>
 
-        <div class="button-row">
-            <a class="pill-button is-primary 3ds" href="/3ds/progress/">Progress</a>
-            <a class="pill-button 3ds" href="https://discord.gg/" target="_blank" rel="noopener">Discord</a>
+        <div class="support-note">
+          <p>If you experience any issues, please report them in the <strong>#support channel</strong> on our Discord.</p>
         </div>
-    </main>
+      </div>
+    </section>
 
-    <footer class="site-footer">
+    <div class="button-row">
+      <a class="pill-button is-primary 3ds" href="/3ds/progress/">Progress</a>
+      <a class="pill-button 3ds" href="https://discord.gg/" target="_blank" rel="noopener">Discord</a>
+    </div>
+  </main>
 
-    </footer>
-    <script>
-        window.addEventListener("DOMContentLoaded", () => {
-            document.getElementById("ip").textContent = window.Constants.REVTENDO_3DSPROXY_IP;
-            document.getElementById("port").textContent = window.Constants.REVTENDO_3DSPROXY_PORT;
-        });
-    </script>
+  <footer class="site-footer">
+  </footer>
+
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const ipElement = document.getElementById("ip");
+      const portElement = document.getElementById("port");
+      if (ipElement) ipElement.remove();
+      if (portElement) portElement.remove();
+    });
+  </script>
 </body>
 </html>
